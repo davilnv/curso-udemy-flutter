@@ -43,6 +43,13 @@ class _HomeState extends State<Home> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
+              "Qual o limite de pessoas no local?",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 18.0,
+              ),
+            ),
+            Text(
               "Pessoas: $_people",
               style: TextStyle(
                 color: Colors.white,
